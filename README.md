@@ -1,5 +1,13 @@
 # Small Blog App
 
+## `Demo`
+
+Server (Deployed on Heroku) - Run this link before firebase to active the server on heroku<br />
+Open [https://young-shelf-56419.herokuapp.com/api/test](https://young-shelf-56419.herokuapp.com/api/test) to view it in the browser.
+
+Demo App (Deployed on Firebase).<br />
+Open [https://small-blog-app.firebaseapp.com/](https://small-blog-app.firebaseapp.com/) to view it in the browser.
+
 ## backend with Nodejs and TypeScript :heavy_check_mark:
 
 Backend of this project was bootstrapped with Expressjs/Nodejs and TypeScript.

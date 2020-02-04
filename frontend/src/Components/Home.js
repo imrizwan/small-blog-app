@@ -28,7 +28,7 @@ export class AdminHome extends Component {
         return (
             isEmpty(this.props.getallposts) || isEmpty(this.props.current) ?
                 <Loader /> : <div>
-                    <p className="text-center h2 mt-4">Posts</p>
+                    <p className="text-center h2 mt-4">Posts (Sorted by date)</p>
                     {
                         isEmpty(this.filtered(this.props.getallposts, this.props.current)) ? <p className="text-center h6">No posts</p> : this.filtered(this.props.getallposts, this.props.current).map((post, index) =>
                             <div className="card my-4 mx-4" key={index}>
