@@ -1,0 +1,11 @@
+export const URL = "http://localhost:8080/api/";
+export const GET_ERRORS = "GET_ERRORS";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const GET_ALL_POSTS = "GET_ALL_POSTS";
+export const GET_MY_POSTS = "GET_MY_POSTS";
+export const DELETE_MY_POST = "DELETE_MY_POST";
+export const USER_ADDED = "USER_ADDED";
+export const VIEW_USERS = "VIEW_USERS";
+export const DELETE_USER = "DELETE_USER";
+export const LIKE_POST = "LIKE_POST";
+export const CURRENT = "CURRENT";

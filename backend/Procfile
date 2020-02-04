@@ -1,0 +1,1 @@
+web: node --exec ts-node -- ./dist/index.js
