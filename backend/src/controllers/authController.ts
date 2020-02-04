@@ -5,12 +5,9 @@ import * as validatePostsInput from "../validation/posts";
 import * as isEmpty from "../validation/is-empty";
 import * as validateLoginInput from "../validation/login";
 import * as bcrypt from "bcryptjs";
-import * as nodemailer from "nodemailer";
-import * as crypto from "crypto";
 import * as jwt from "jsonwebtoken";
 import * as User from "../models/User";
 import * as Verify from "../models/Verify";
-import * as Token from "../models/Token";
 import * as Posts from "../models/Posts";
 import * as gravatar from "gravatar";
 

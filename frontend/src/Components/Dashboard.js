@@ -4,7 +4,7 @@ export class Dashboard extends Component {
     render() {
         return (
             <div>
-                Welcome
+                <p className="text-center h2 mt-4">Welcome</p>
             </div>
         )
     }

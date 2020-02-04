@@ -1,6 +1,32 @@
 # Small Blog App
 
-## Fu
+## backend with Nodejs and TypeScript :heavy_check_mark:
+
+Backend of this project was bootstrapped with Expressjs/Nodejs and TypeScript.
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `yarn server`
+
+Runs the server in the development mode.<br />
+Open [http://localhost:8080/api/test](http://localhost:8080/api/test) to test it in the browser.
+
+## frontend with Reactjs :heavy_check_mark:
+
+Frontend of this project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+### Available Scripts
+
+In the project directory, you can run:
+
+### `yarn start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Functional spec
 
 The coding challenge is about implementing a small blog app.
 
@@ -11,4 +37,4 @@ The coding challenge is about implementing a small blog app.
  - As a User, I should be able to logout :heavy_check_mark:
  - As a User, I can display the list of posts sorted by date :heavy_check_mark:
  - As a User, I can like a post, so it can be added to my preferred posts :heavy_check_mark:
-        Acceptance criteria: liked posts shouldn’t be displayed on the main page, it should on the preferred posts list only. :heavy_check_mark:
+ - Acceptance criteria: liked posts shouldn’t be displayed on the main page, it should on the preferred posts list only. :heavy_check_mark:
