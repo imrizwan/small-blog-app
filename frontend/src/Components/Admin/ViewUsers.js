@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { viewUsers, deleteUser } from "../../Action/authActions"
 import { connect } from "react-redux"
 import isEmpty from "../../validation/is-empty";
-import Loader from '../../Loader';
+// import Loader from '../../Loader';
 
 export class ViewUsers extends Component {
 

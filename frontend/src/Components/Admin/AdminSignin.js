@@ -69,7 +69,7 @@ export class AdminSignin extends Component {
                         <div className="input-group-prepend">
                             <span className="input-group-text" id="inputGroup-sizing-default">Password</span>
                         </div>
-                        <input type="text" className="form-control" name="password" onChange={this.handleChangeInput("password")} aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
+                        <input type="password" className="form-control" name="password" onChange={this.handleChangeInput("password")} aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" />
                     </div>
                     {errors.password ? (
                         <div style={{ color: "red" }} className="mb-4">{this.state.errors.password}</div>

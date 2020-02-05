@@ -35,7 +35,7 @@ export const createPost = (userInfo, history) => dispatch => {
 
   axios.post(URL + "createpost", userInfo)
     .then(res => {
-      const { token } = res.data;
+      // const { token } = res.data;
       history.push("/adminhome")
     }).catch(errors => dispatch({ type: GET_ERRORS, payload: errors.response.data }))
 }
