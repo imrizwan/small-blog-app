@@ -10,7 +10,7 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
     "history": "^4.10.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jwt-decode": "^2.2.0",
     "react": "^0.0.0-241c4467e",
     "react-dom": "^0.0.0-241c4467e",
